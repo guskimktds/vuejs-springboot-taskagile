@@ -55,6 +55,7 @@ describe('RegisterPage.vue', () => {
     expect(buttonSubmit.text()).toEqual('Create account')
   })
 
+  //데이터 모델의 초기값 테스트
   it('should contain data model with initial values', () => {
     expect(wrapper.vm.form.username).toEqual('')
     expect(wrapper.vm.form.emailAddress).toEqual('')
